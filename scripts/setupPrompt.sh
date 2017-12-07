@@ -1,0 +1,9 @@
+COLOR1="\[\033[0;32m\]"
+COLOR2="\[\033[0;33m\]"
+COLOR3="\[\033[0;31m\]"
+DEFAULT_COLOR="\[\033[0m\]"
+USER_AT_HOST_TAG="[\u@\h]"
+TIME_TAG="[ \t ]"
+DIR_TAG="[ \w ]"
+PS1=$"${COLOR1}${USER_AT_HOST_TAG} ${COLOR2}${TIME_TAG} ${COLOR1}${DIR_TAG} ${DEFAULT_COLOR} \n >> "
+
